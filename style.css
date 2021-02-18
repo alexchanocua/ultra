@@ -1,0 +1,37 @@
+#btnEnter, p {
+	font-family: Courier New;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+p {
+	text-align: center;
+	font-size: large;
+}
+
+
+.col-1 {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+
+.container {
+	justify-content: center;
+}
+
+img {
+	display: block;
+	margin-left:auto;
+	margin-right: auto;
+	width: 470px;
+	height: 300px;
+	margin-top: 2em;
+	margin-bottom: 1.2em;
+	transition: all 1s;
+}
+
+img:hover {
+	transform: scale(1.1);
+}
