@@ -1,12 +1,18 @@
 .btn, #qoute {
 	font-family: Courier New;
 	width: 100%;
+	padding-left: 1em;
+	padding-right: 1em;
 }
 
 .form-text, .form-label {
 	font-family: Courier New;
 }
 
+form {
+	padding-right: 1em;
+	padding-left: 1em;
+}
 
 img {
 	display: block;
