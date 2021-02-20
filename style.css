@@ -26,6 +26,11 @@ img:hover {
 	transform: scale(1.1);
 }
 
+:root {
+	--animate-duration: 2s;
+	--animate-delay:0.5s;
+}
+
 .container{
 	margin-top: auto;
 	margin-bottom: auto;
