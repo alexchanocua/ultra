@@ -24,8 +24,11 @@ img {
 	height: 300px;
 	transition: all 1s;
 	margin-bottom: 1em;
+	--animate-duration: 3.2s;
+	--animate-delay: 0.9s;
 }
 
 img:hover {
 	transform: scale(1.1);
 }
+
