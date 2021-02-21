@@ -5,6 +5,10 @@
 	padding-right: 1em;
 }
 
+p {
+	font-family: Courier New;
+}
+
 .form-text, .form-label {
 	font-family: Courier New;
 }
