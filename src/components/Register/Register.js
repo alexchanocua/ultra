@@ -5,7 +5,7 @@ import {Container, Row, Col} from 'react-bootstrap'
 import registerImage from './registerImage.jpg'
 import {Animated} from 'react-animated-css'
 
-export default function Register() {
+export default function Register({onRouteChange}) {
     return (
         
             <Container >
@@ -45,6 +45,7 @@ export default function Register() {
                                 <Button variant="light" type="submit">
                                     Submit
                                 </Button>
+                                <Button id="buttonLink"  onClick={() => onRouteChange('home')}>Back to homepage</Button>
                             </Form>
                         </Col>
                     </Row>

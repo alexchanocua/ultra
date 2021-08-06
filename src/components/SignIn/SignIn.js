@@ -5,6 +5,17 @@ import {Container, Row, Col} from 'react-bootstrap'
 import signInImage from './signInImage.jpg'
 import {Animated} from 'react-animated-css'
 
+// const myStyle = {
+//     background: "none",
+//     border: "none",
+//     padding: "0!important",
+//     /*optional*/
+//     fontfamily: "arial, sans-serif",
+//     /*input has OS specific font-family*/
+//     color: "#069",
+//     textdecoration: "underline",
+//     cursor: "pointer"}
+
 export default function SignIn({onRouteChange}) {
     return (
         <Container >
@@ -44,6 +55,7 @@ export default function SignIn({onRouteChange}) {
                         <Button variant="light" type="submit">
                             Submit
                         </Button>
+                        <Button id="buttonLink"  onClick={() => onRouteChange('home')}>Back to homepage</Button>
                     </Form>
                 </Col>
             </Row>

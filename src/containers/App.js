@@ -34,8 +34,8 @@ class App extends Component {
       ? <LandingPage isSignedIn={isSignedIn} onRouteChange={this.onRouteChange} />
       : (
         route === 'signin'
-        ? <SignIn  />
-        : <Register />
+        ? <SignIn  onRouteChange={this.onRouteChange}/>
+        : <Register onRouteChange={this.onRouteChange}/>
         )
     )
   }
