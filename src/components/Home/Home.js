@@ -3,7 +3,7 @@ import homeImage from './homeImage.jpg'
 import {Animated} from 'react-animated-css'
 
 export default function Home({name, onRouteChange}) {
-    console.log(name);
+    name = name.charAt(0).toUpperCase() + name.slice(1); 
     return (
         <Container >
             <Row className="justify-content-md-center">
@@ -25,7 +25,7 @@ export default function Home({name, onRouteChange}) {
                 </Col>
             </Row>
             <Row>
-            <p>\n{name}, thank you for registering. We are currently under development and will soon launch..</p>
+            <p>{name}, thank you for registering. We are currently under development and will launch soon..</p>
             </Row>
         </Container>
     )

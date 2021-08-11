@@ -58,7 +58,7 @@ class App extends Component {
         page = <LandingPage isSignedIn={isSignedIn} onRouteChange={this.onRouteChange} />
         break;
       case 'signin':
-        page = <SignIn  onRouteChange={this.onRouteChange}/>
+        page = <SignIn loadUser={this.loadUser} onRouteChange={this.onRouteChange}/>
         break;
       case 'register':
         page = <Register loadUser={this.loadUser} onRouteChange={this.onRouteChange}/>
