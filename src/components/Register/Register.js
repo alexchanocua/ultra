@@ -94,7 +94,9 @@ export default class Register extends React.Component {
                                     <Button onClick={this.onSubmitRegister} variant="light" type="button">
                                         Submit
                                     </Button>
-                                    <Button id="buttonLink"  onClick={() => this.props.onRouteChange('landingPage')}>Back to homepage</Button>
+                                    <Row>
+                                        <Button id="buttonLink"  onClick={() => this.props.onRouteChange('landingPage')}> Back to homepage</Button>
+                                    </Row>
                                 </Form>
                             </Col>
                         </Row>

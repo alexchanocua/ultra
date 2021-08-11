@@ -79,7 +79,9 @@ export default class SignIn extends React.Component {
                             <Button onClick={this.onSubmitSignIn} variant="light" type="button">
                                 Submit
                             </Button>
-                            <Button id="buttonLink"  onClick={() => onRouteChange('landingPage')}>Back to homepage</Button>
+                            <Row>
+                                <Button id="buttonLink"  onClick={() => onRouteChange('landingPage')}>Back to homepage</Button>
+                            </Row>
                         </Form>
                     </Col>
                 </Row>
