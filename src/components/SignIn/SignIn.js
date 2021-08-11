@@ -39,6 +39,8 @@ export default class SignIn extends React.Component {
                 this.props.loadUser(user);
                 this.props.onRouteChange('home');
             }
+            else
+                alert('Incorrect username/password');
         })
         
     }
