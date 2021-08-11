@@ -21,7 +21,7 @@ export default function SignIn({onRouteChange}) {
                         animationIn="fadeIn"
                         animationInDelay={750} 
                         isVisible={true}
-                        >
+                    >
                         <p>ultra</p>
                     </Animated>
                     
