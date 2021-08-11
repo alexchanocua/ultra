@@ -47,4 +47,5 @@ img:hover {
 	color: #069;
 	text-decoration: underline;
 	cursor: pointer;
+	margin-bottom: auto;
 }
