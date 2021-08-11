@@ -23,8 +23,7 @@ export default function SignIn({onRouteChange}) {
                 <Col id='col'>
                     <Animated 
                         animationIn="fadeIn" 
-                        animationOut="fadeOut"
-                        animationInDuration="3000"
+                        animationInDuration={3000}
                         isVisible={true}
                         >
                     <img alt='logo' src={signInImage}/>
@@ -43,9 +42,6 @@ export default function SignIn({onRouteChange}) {
                         <Form.Group className="mb-3" controlId="formBasicEmail">
                             <Form.Label>Email address</Form.Label>
                             <Form.Control type="email"  />
-                            <Form.Text className="text-muted">
-                            We'll never share your email with anyone else.
-                            </Form.Text>
                         </Form.Group>
 
                         <Form.Group className="mb-3" controlId="formBasicPassword">
@@ -55,7 +51,7 @@ export default function SignIn({onRouteChange}) {
                         <Button variant="light" type="submit">
                             Submit
                         </Button>
-                        <Button id="buttonLink"  onClick={() => onRouteChange('home')}>Back to homepage</Button>
+                        <Button id="buttonLink"  onClick={() => onRouteChange('landingPage')}>Back to homepage</Button>
                     </Form>
                 </Col>
             </Row>

@@ -11,8 +11,7 @@ const LandingPage = ({ onRouteChange, isSignedIn }) => {
     return (
         <Animated 
         animationIn="fadeIn" 
-        animationOut="fadeOut"
-        animationInDuration="3000"
+        animationInDuration={3000}
         isVisible={true}
         >
             <Container >

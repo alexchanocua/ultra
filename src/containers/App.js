@@ -7,8 +7,14 @@ import SignIn from '../components/SignIn/SignIn';
 import Register from '../components/Register/Register';
 
 const initialState = {
+  input: '',
   isSignedIn: false, 
-  route: 'home'
+  route: '',
+  user: {
+    email: '',
+    password: '',
+    name: '',
+  }
 }
 
 class App extends Component {
@@ -16,6 +22,20 @@ class App extends Component {
     super();
     this.state = initialState;
   }
+
+  loadUser = (data) => {
+    this.setState({user: {
+      email: data.email,
+      password: data.password,
+      name: data.name
+    }})
+  }
+
+  onInputChange = (event) => {
+    this.setState({input: event.target.value});
+  }
+  
+  // inprogress
 
   onRouteChange = (route) => {
     if(route === 'signout') {
@@ -30,12 +50,12 @@ class App extends Component {
   render () {
     const {route, isSignedIn} = this.state;
     return (
-      route === 'home'
+      route === 'landingPage'
       ? <LandingPage isSignedIn={isSignedIn} onRouteChange={this.onRouteChange} />
       : (
         route === 'signin'
         ? <SignIn  onRouteChange={this.onRouteChange}/>
-        : <Register onRouteChange={this.onRouteChange}/>
+        : <Register loadUser={this.loadUser} onRouteChange={this.onRouteChange}/>
         )
     )
   }
