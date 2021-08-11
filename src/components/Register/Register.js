@@ -44,7 +44,7 @@ export default class Register extends React.Component {
         .then(user => {
             if (user.id){
                 this.props.loadUser(user);
-                this.props.onRouteChange('landingPage');
+                this.props.onRouteChange('home');
             }
         })
     }

@@ -5,17 +5,6 @@ import {Container, Row, Col} from 'react-bootstrap'
 import signInImage from './signInImage.jpg'
 import {Animated} from 'react-animated-css'
 
-// const myStyle = {
-//     background: "none",
-//     border: "none",
-//     padding: "0!important",
-//     /*optional*/
-//     fontfamily: "arial, sans-serif",
-//     /*input has OS specific font-family*/
-//     color: "#069",
-//     textdecoration: "underline",
-//     cursor: "pointer"}
-
 export default function SignIn({onRouteChange}) {
     return (
         <Container >
@@ -30,9 +19,7 @@ export default function SignIn({onRouteChange}) {
                     </Animated>
                     <Animated 
                         animationIn="fadeIn"
-                        animationInDelay="750" 
-                        animationOut="fadeOut"
-                        animationInDuration="3000"
+                        animationInDelay={750} 
                         isVisible={true}
                         >
                         <p>ultra</p>
