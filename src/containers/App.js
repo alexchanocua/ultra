@@ -55,7 +55,7 @@ class App extends Component {
     let page;
     switch(route) {
       case 'landingPage':
-        page = <LandingPage isSignedIn={isSignedIn} onRouteChange={this.onRouteChange} />
+        page = <LandingPage onRouteChange={this.onRouteChange} />
         break;
       case 'signin':
         page = <SignIn loadUser={this.loadUser} onRouteChange={this.onRouteChange}/>
@@ -64,7 +64,7 @@ class App extends Component {
         page = <Register loadUser={this.loadUser} onRouteChange={this.onRouteChange}/>
         break;
       case 'home':
-        page = <Home name={name} onRouteChange={this.onRouteChange}/>
+        page = <Home isSignedIn={isSignedIn} name={name} onRouteChange={this.onRouteChange}/>
         break;
       default:
         page = <LandingPage isSignedIn={isSignedIn} onRouteChange={this.onRouteChange} />
