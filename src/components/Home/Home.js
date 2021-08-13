@@ -40,9 +40,18 @@ export default function Home({name, onRouteChange}) {
                     </Animated>
                 </Col>
             </Row>
+    
+            <Animated 
+            animationIn="fadeIn" 
+            animationInDuration={2000}
+            animationInDelay={750} 
+            isVisible={true}
+            >
             <Row>
             <p>{name}, thank you for registering. We are currently under development and will launch soon..</p>
             </Row>
+            </Animated>
+            
         </Container>
         </div>
 

@@ -17,7 +17,7 @@ const LandingPage = ({ onRouteChange, isSignedIn }) => {
             <Container >
                 <Row className="justify-content-md-center">
                     <Col id='col'>
-                        <img alt='logo' src={oceanPic}/>
+                        <img className='imageHover' alt='logo' src={oceanPic}/>
                         <p>ultra</p>
                         <DropdownButton  variant="light" id="dropdown-basic-button" title="Enter">
                             <Dropdown.Item onClick={() => onRouteChange('signin')} >Login</Dropdown.Item>

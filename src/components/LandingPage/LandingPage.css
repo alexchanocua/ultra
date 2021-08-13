@@ -1,15 +1,3 @@
-img {
-	display: block;
-	margin-left:auto;
-	margin-right: auto;
-	max-width:89%;
-	width:440px;
-	height: 400px;
-	margin-top: 2em;
-	margin-bottom: 1em;
-	transition: all 1s;
-}
-
 #dropdown-basic-button, p {
 	font-family: Courier New;
 }
@@ -33,7 +21,7 @@ p {
 	
 }
 
-img:hover {
+.imageHover:hover {
 	transform: scale(1.1);
 }
 
