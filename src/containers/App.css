@@ -9,3 +9,7 @@ img {
 	margin-bottom: 1rem;
 	transition: all 1s;
 }
+
+#text {
+  font-family: Courier New;
+}

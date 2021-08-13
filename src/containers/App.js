@@ -74,7 +74,7 @@ class App extends Component {
     // : route === 'register'
     //   ? page = <Register loadUser={this.loadUser} onRouteChange={this.onRouteChange}/>
     //   : page = <LandingPage isSignedIn={isSignedIn} onRouteChange={this.onRouteChange} />
-    return (page
+    return (<div id='text'> {page} </div>
     )
   }
 }
