@@ -1,7 +1,7 @@
 import {Container, Row, Col} from 'react-bootstrap'
 import homeImage5 from './homeImage5.jpg'
 import homeImage4 from './homeImage4.jpg'
-import homeImage3 from './homeImage3.jpg'
+import homeImage from './homeImage.jpg'
 import {Animated} from 'react-animated-css'
 import Navbar from 'react-bootstrap/Navbar'
 import Button from 'react-bootstrap/Button'
@@ -72,7 +72,7 @@ export default function Home({name, onRouteChange}) {
                         animationInDuration={3000}
                         isVisible={true}
                         >
-                    <img alt='logo' src={homeImage3}/>
+                    <img alt='logo' src={homeImage}/>
                     </Animated>
                 </Col>
             </Row>
