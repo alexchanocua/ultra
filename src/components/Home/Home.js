@@ -45,7 +45,7 @@ export default function Home({name, onRouteChange}) {
             </Row>
 
             <Row>
-            <p>{name}, thank you for register. We are currently under development and will launch soon..</p>
+            <p>{name}, thank you for registering. We are currently under development and will launch soon..</p>
             </Row>
 
             {/* This is a test layout of the rest off the app */}
