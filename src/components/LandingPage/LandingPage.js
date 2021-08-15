@@ -7,6 +7,7 @@ import Dropdown from 'react-bootstrap/Dropdown'
 import { Animated } from 'react-animated-css';
 
 
+
 const LandingPage = ({ onRouteChange, isSignedIn }) => {
     return (
         <Animated 

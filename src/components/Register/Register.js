@@ -2,7 +2,7 @@ import React from 'react';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import {Container, Row, Col} from 'react-bootstrap'
-import registerImage from './registerImage.jpg'
+import registerImage6 from './registerImage6.jpg'
 import {Animated} from 'react-animated-css'
 
 export default class Register extends React.Component {
@@ -63,7 +63,7 @@ export default class Register extends React.Component {
                                     animationInDuration={3000}
                                     isVisible={true}
                                     >
-                                <img alt='logo' src={registerImage}/>
+                                <img alt='logo' src={registerImage6}/>
                                 </Animated>
                                 <Animated 
                                     animationIn="fadeIn"

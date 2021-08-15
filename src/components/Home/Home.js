@@ -1,6 +1,6 @@
 import {Container, Row, Col} from 'react-bootstrap'
-import homeImage from './homeImage.jpg'
-import homeImage2 from './homeImage2.jpg'
+import homeImage5 from './homeImage5.jpg'
+import homeImage4 from './homeImage4.jpg'
 import homeImage3 from './homeImage3.jpg'
 import {Animated} from 'react-animated-css'
 import Navbar from 'react-bootstrap/Navbar'
@@ -39,7 +39,7 @@ export default function Home({name, onRouteChange}) {
                         animationInDuration={3000}
                         isVisible={true}
                         >
-                    <img alt='logo' src={homeImage}/>
+                    <img alt='logo' src={homeImage4}/>
                     </Animated>
                 </Col>
             </Row>
@@ -56,7 +56,7 @@ export default function Home({name, onRouteChange}) {
                         animationInDuration={3000}
                         isVisible={true}
                         >
-                    <img alt='logo' src={homeImage3}/>
+                    <img alt='logo' src={homeImage5}/>
                     </Animated>
                 </Col>
             </Row>
@@ -72,7 +72,7 @@ export default function Home({name, onRouteChange}) {
                         animationInDuration={3000}
                         isVisible={true}
                         >
-                    <img alt='logo' src={homeImage2}/>
+                    <img alt='logo' src={homeImage3}/>
                     </Animated>
                 </Col>
             </Row>
@@ -82,9 +82,12 @@ export default function Home({name, onRouteChange}) {
             </Row>
 
 
-            <Footer></Footer>
+            
 
             </Container>
+
+            
+            <Footer></Footer>
 
             
            
