@@ -39,17 +39,38 @@ export default function Home({name, onRouteChange}) {
                         animationInDuration={3000}
                         isVisible={true}
                         >
+                    <img alt='logo' src={homeImage}/>
+                    </Animated>
+                </Col>
+            </Row>
+
+            <Row>
+            <p>{name}, thank you for register. We are currently under development and will launch soon..</p>
+            </Row>
+
+            {/* This is a test layout of the rest off the app */}
+            <Row className="justify-content-md-center">
+                <Col id='col'>
+                    <Animated 
+                        animationIn="fadeIn" 
+                        animationInDuration={3000}
+                        isVisible={true}
+                        >
                     <img alt='logo' src={homeImage3}/>
                     </Animated>
                 </Col>
             </Row>
+
             <Row>
-            <p>{name}, thank you for register. We are currently under development and will launch soon..</p>
+            <p>This is a test layout. </p>
             </Row>
+
             
-            
-            <Footer></Footer>
             </Container>
+
+            <Footer></Footer>
+
+           
         </div>
 
     )

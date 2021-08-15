@@ -15,6 +15,7 @@ export default function Footer() {
                         </Navbar.Collapse>
                     </Container>
                  </Navbar>
+
         </div>
 
     )
