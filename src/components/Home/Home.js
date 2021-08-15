@@ -1,5 +1,6 @@
 import {Container, Row, Col} from 'react-bootstrap'
 import homeImage from './homeImage.jpg'
+import homeImage2 from './homeImage2.jpg'
 import {Animated} from 'react-animated-css'
 import Navbar from 'react-bootstrap/Navbar'
 import Button from 'react-bootstrap/Button'
@@ -36,7 +37,7 @@ export default function Home({name, onRouteChange}) {
                         animationInDuration={3000}
                         isVisible={true}
                         >
-                    <img alt='logo' src={homeImage}/>
+                    <img alt='logo' src={homeImage2}/>
                     </Animated>
                 </Col>
             </Row>
@@ -74,7 +75,7 @@ export default function Home({name, onRouteChange}) {
             isVisible={true}
             >
             <Row>
-            <p>{name}, thank you for registering. We are currently under development and will launch soon..</p>
+            <p>This is a test layout of how everything will look.</p>
             </Row>
             </Animated>
             
