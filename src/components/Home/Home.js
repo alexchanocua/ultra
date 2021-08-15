@@ -65,11 +65,28 @@ export default function Home({name, onRouteChange}) {
             <p>This is a test layout. </p>
             </Row>
 
-            
-            </Container>
+            <Row className="justify-content-md-center">
+                <Col id='col'>
+                    <Animated 
+                        animationIn="fadeIn" 
+                        animationInDuration={3000}
+                        isVisible={true}
+                        >
+                    <img alt='logo' src={homeImage2}/>
+                    </Animated>
+                </Col>
+            </Row>
+
+            <Row>
+            <p>Image descriptions will be like this. </p>
+            </Row>
+
 
             <Footer></Footer>
 
+            </Container>
+
+            
            
         </div>
 
