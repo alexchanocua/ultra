@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+import PreLandingPage from '../components/PreLandingPage/PreLandingPage';
 import LandingPage from '../components/LandingPage/LandingPage.js';
 import SignIn from '../components/SignIn/SignIn';
 import Register from '../components/Register/Register';
@@ -67,7 +68,7 @@ class App extends Component {
         page = <Home isSignedIn={isSignedIn} name={name} onRouteChange={this.onRouteChange}/>
         break;
       default:
-        page = <LandingPage isSignedIn={isSignedIn} onRouteChange={this.onRouteChange} />
+        page = <PreLandingPage isSignedIn={isSignedIn} onRouteChange={this.onRouteChange} />
     }
     // route === 'signin'
     // ? page = <SignIn  onRouteChange={this.onRouteChange}/>
