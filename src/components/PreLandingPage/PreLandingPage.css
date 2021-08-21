@@ -11,8 +11,8 @@
 }
 
 .gif {
-    height: 120px;
-    width: 120px;
+    height: 100px;
+    width: 100px;
 }
 .gif, .gifText:hover {
     cursor: pointer
