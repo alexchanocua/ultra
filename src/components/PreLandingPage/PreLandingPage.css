@@ -3,6 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgb(252, 252, 252);
 }
 
 .flex-item {
@@ -10,10 +11,14 @@
 }
 
 .gif {
-    height: 100px;
-    width: 100px;
+    height: 10rem;
+    width: 10rem;
 }
 .gif:hover {
     cursor: pointer
+}
+
+.gifText {
+    border-bottom: none;
 }
 
