@@ -1,29 +1,30 @@
 {
   "files": {
-    "main.css": "/ultra/static/css/main.40153ac7.chunk.css",
-    "main.js": "/ultra/static/js/main.f52fbe31.chunk.js",
-    "main.js.map": "/ultra/static/js/main.f52fbe31.chunk.js.map",
+    "main.css": "/ultra/static/css/main.5ffc7b2b.chunk.css",
+    "main.js": "/ultra/static/js/main.4e94afda.chunk.js",
+    "main.js.map": "/ultra/static/js/main.4e94afda.chunk.js.map",
     "runtime-main.js": "/ultra/static/js/runtime-main.e86cfa8b.js",
     "runtime-main.js.map": "/ultra/static/js/runtime-main.e86cfa8b.js.map",
     "static/css/2.9082872e.chunk.css": "/ultra/static/css/2.9082872e.chunk.css",
-    "static/js/2.fd28862b.chunk.js": "/ultra/static/js/2.fd28862b.chunk.js",
-    "static/js/2.fd28862b.chunk.js.map": "/ultra/static/js/2.fd28862b.chunk.js.map",
+    "static/js/2.ca477663.chunk.js": "/ultra/static/js/2.ca477663.chunk.js",
+    "static/js/2.ca477663.chunk.js.map": "/ultra/static/js/2.ca477663.chunk.js.map",
     "index.html": "/ultra/index.html",
     "static/css/2.9082872e.chunk.css.map": "/ultra/static/css/2.9082872e.chunk.css.map",
-    "static/css/main.40153ac7.chunk.css.map": "/ultra/static/css/main.40153ac7.chunk.css.map",
-    "static/js/2.fd28862b.chunk.js.LICENSE.txt": "/ultra/static/js/2.fd28862b.chunk.js.LICENSE.txt",
+    "static/css/main.5ffc7b2b.chunk.css.map": "/ultra/static/css/main.5ffc7b2b.chunk.css.map",
+    "static/js/2.ca477663.chunk.js.LICENSE.txt": "/ultra/static/js/2.ca477663.chunk.js.LICENSE.txt",
     "static/media/homeImage.26acebe7.jpg": "/ultra/static/media/homeImage.26acebe7.jpg",
     "static/media/homeImage4.2062a48c.jpg": "/ultra/static/media/homeImage4.2062a48c.jpg",
     "static/media/homeImage5.a0ed9d90.jpg": "/ultra/static/media/homeImage5.a0ed9d90.jpg",
     "static/media/ocean.f0a104af.jpeg": "/ultra/static/media/ocean.f0a104af.jpeg",
     "static/media/registerImage6.aa49f900.jpg": "/ultra/static/media/registerImage6.aa49f900.jpg",
-    "static/media/signInImage.07c7fd39.jpg": "/ultra/static/media/signInImage.07c7fd39.jpg"
+    "static/media/signInImage.07c7fd39.jpg": "/ultra/static/media/signInImage.07c7fd39.jpg",
+    "static/media/sphere.5d18f899.gif": "/ultra/static/media/sphere.5d18f899.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.e86cfa8b.js",
     "static/css/2.9082872e.chunk.css",
-    "static/js/2.fd28862b.chunk.js",
-    "static/css/main.40153ac7.chunk.css",
-    "static/js/main.f52fbe31.chunk.js"
+    "static/js/2.ca477663.chunk.js",
+    "static/css/main.5ffc7b2b.chunk.css",
+    "static/js/main.4e94afda.chunk.js"
   ]
 }
